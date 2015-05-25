@@ -1,0 +1,13 @@
+<ion-view view-title="Home">
+  <ion-content padding="true">
+    <div class="card" ng-repeat="news in timeline">
+      <div class="item item-divider">
+        <i class="icon ion-calendar"></i>
+        {{news.title}}
+      </div>
+      <div class="item item-text-wrap">
+        <span ng-bind-html="news.description"></span>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
