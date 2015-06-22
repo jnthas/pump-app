@@ -1,6 +1,6 @@
 
 
-![PumpApp Logo](/home/jonathas/projetos/pump-app/logo.png  "PumpApp")
+![PumpApp Logo](./logo.png  "PumpApp")
 
 
 **Estou começando o projeto, então, não há nada funcional por enquanto!**
