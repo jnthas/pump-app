@@ -1,0 +1,107 @@
+Modelo PumpApp
+==============
+
+var treino = {
+  motivo: "Primeiro treino completo para ambientação.",
+  dataInicio: 20150101,
+  dataFinal: 20150201,
+  
+  aluno: {
+    nome "Jonathas Amaral",
+    nascimento: 19850502
+    sexo: "m",
+    medidas: {
+      altura: 174,
+      peso: 65,
+      ombro: 1,
+      peito: 2,
+      braco: 4,
+      cintura: 3,
+      quadril: 4,
+      coxa: 5,
+      panturrilha: 6
+    }
+  },
+  
+  fichas: [
+    {
+      id: "Ficha #1",
+      descricao: "Desenvolver biceps e costas",
+      frequencia: [1,3,5],
+      icone: "ion-plus",
+      exercicios: [
+        {
+          nome: "Remada Baixa",
+          serie: 4,
+          carga: [10,12,14,16],
+          repeticao: [10,8,6,4],
+          descanso: 60,
+          observacao: "Flexionar os joelhos ao realizar o exercicio."
+        },
+        {
+          nome: "Rosca Direta",
+          serie: 3,
+          carga: [14],
+          repeticao: [8],
+          descanso: 60,
+          observacao: ""
+        }]
+    }]    
+}
+  
+
+
+
+Objetos
+=======
+
+treino: {
+  motivo: "",
+  dataInicial: 0,
+  dataFinal: 0,
+  aluno: {},
+  fichas: []
+}
+
+aluno: {
+  nome "",
+  nascimento: 0
+  sexo: "",
+  medidas: {}
+}
+
+medidas: {
+  altura: 0,
+  peso: 0,
+  ombro: 0,
+  peito: 0,
+  braco: 0,
+  cintura: 0,
+  quadril: 0,
+  coxa: 0,
+  panturrilha: 0
+}
+
+ficha: {
+  id: "",
+  descricao: "",
+  frequencia: [],
+  icone: "",
+  exercicios: []
+}
+
+exercicio: {
+  nome: "",
+  serie: 0,
+  carga: [],
+  repeticao: [],
+  descanso: 0,
+  observacao: ""
+}
+
+
+
+
+
+
+
